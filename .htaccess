@@ -1,0 +1,9 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^sunfish\.ympi\.co\.id$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.sunfish\.ympi\.co\.id$
+RewriteRule ^/?$ "http\:\/\/36\.94\.7\.202" [R=301,L]
+RewriteCond %{HTTP_HOST} ^greatday\.ympi\.co\.id$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.greatday\.ympi\.co\.id$
+RewriteRule ^/?$ "http\:\/\/36\.94\.7\.202" [R=301,L]
+
